@@ -1,0 +1,16 @@
+PackageIdentifier: Luoyuctl.AgentTrace
+PackageVersion: 0.9.0
+InstallerType: portable
+Commands:
+  - agenttrace
+Installers:
+  - Architecture: x64
+    InstallerUrl: https://github.com/luoyuctl/agenttrace/releases/download/v0.9.0/agenttrace-windows-amd64.exe
+    InstallerSha256: b92ffe28f3360408b0e61efae1d66c46a147354befd3a84cf37c313f56591f1f
+    PortableCommandAlias: agenttrace
+  - Architecture: arm64
+    InstallerUrl: https://github.com/luoyuctl/agenttrace/releases/download/v0.9.0/agenttrace-windows-arm64.exe
+    InstallerSha256: 48a2beb974a2952036b7ee0e5567bc448a8f94561a852719b09e58d6f0c1cb7b
+    PortableCommandAlias: agenttrace
+ManifestType: installer
+ManifestVersion: 1.10.0
